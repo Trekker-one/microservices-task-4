@@ -13,7 +13,6 @@ fetch("https://jsonplaceholder.typicode.com/users").then(
                         temp += "<td>" + itemData.name + "</td>";
                         temp += "<td>" + itemData.username + "</td>";
                         temp += "<td>" + itemData.email + "</td>";
-                        temp += "<td>" + itemData.website + "</td>";
                         temp += "</tr>";
                         index++;
                     });
